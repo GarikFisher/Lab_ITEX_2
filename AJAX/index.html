@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        
+        <h2>Просмотреть список палат, в которых дежурит выбранная медсестра</h2>
+        <div id="table"></div>
+        <select id="select1">
+            <option>no data</option>
+        </select>
+        <br/>
+        <input type="button" name="submit1" value="Просмотреть" onclick="get1();"/>
+        <table id="table1" border="1px"> </table>
+        <br/>
+ 
+
+        <h2>Просмотреть список медсестер, работающих в выбранном отделении</h2>
+        <select id="select2">
+            <option>no data</option>
+        </select>
+        <br/>
+        <input type="button" name="submit2" value="Просмотреть" onclick="get2();"/>
+        <br/>
+        <table id="table2" border="1px"> </table>
+ 
+
+        <h2>Просмотреть дежурства в выбранную смену</h2>
+        <select id="select3">
+            <option>no data</option>
+        </select>
+        <br/>
+        <input type="button" name="submit3" value="Просмотреть" onclick="get3();"/>
+        <table id="table3" border="1px"> </table>
+        <br/>
+ 
+        <h1>Добавить медсестру</h1>
+        id: </br>
+        <input id="id" name="id" type="text" size="30">
+        </br>
+
+        name: </br>
+        <input id="name" name="name" type="text" size="30">
+        </br>
+
+        date: </br>
+        <input id="date" name="date" type="date">
+        </br>
+
+        department:</br>
+        <select id="depart_select"> 
+            <option value=""></option>
+        </select>
+        <br/>
+	
+        shift <br/>
+        <select id="duty_select"> 
+            <option value=""></option>
+        </select>
+	    <br/>
+        <input type="button" name="submit4" value="Добавить" onclick="insert_nurse();"/>
+
+
+        <h1>Добавить палату</h1>
+        id: </br>
+        <input id="id_ward" name="id" type="text" size="30">
+        </br>
+
+        name: </br>
+        <input id="ward_name" name="name" type="text" size="30">
+        </br>
+        <input type="submit" name="submit5" value="Добавить" onclick="insert_ward();"/>
+
+
+        <h1>Назначить выбранную медсестру в указанную палату</h1>
+        name: </br>
+        <select id="name_select"> 
+            <option value=""></option>
+        </select>
+        <br/>
+
+        name ward: </br>
+        <select id="ward_select"> 
+            <option value=""></option>
+        </select>
+        <br/>
+        <input type="submit" name="submit6" value="Назначить" onclick="set();"/>
+
+        <script src="Client.js"></script>
+    </body>
+</html>
