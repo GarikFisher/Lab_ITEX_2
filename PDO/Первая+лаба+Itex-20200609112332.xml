@@ -1,0 +1,67 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="ru">
+  <siteinfo>
+    <sitename>Первая лаба Itex</sitename>
+    <dbname>my_wiki</dbname>
+    <base>http://localhost/MediaWiki/index.php/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0</base>
+    <generator>MediaWiki 1.34.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Медиа</namespace>
+      <namespace key="-1" case="first-letter">Служебная</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Обсуждение</namespace>
+      <namespace key="2" case="first-letter">Участник</namespace>
+      <namespace key="3" case="first-letter">Обсуждение участника</namespace>
+      <namespace key="4" case="first-letter">Первая лаба Itex</namespace>
+      <namespace key="5" case="first-letter">Обсуждение Первая лаба Itex</namespace>
+      <namespace key="6" case="first-letter">Файл</namespace>
+      <namespace key="7" case="first-letter">Обсуждение файла</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Обсуждение MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Шаблон</namespace>
+      <namespace key="11" case="first-letter">Обсуждение шаблона</namespace>
+      <namespace key="12" case="first-letter">Справка</namespace>
+      <namespace key="13" case="first-letter">Обсуждение справки</namespace>
+      <namespace key="14" case="first-letter">Категория</namespace>
+      <namespace key="15" case="first-letter">Обсуждение категории</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Первая лаба Itex</title>
+    <ns>0</ns>
+    <id>2</id>
+    <revision>
+      <id>2</id>
+      <timestamp>2020-06-09T07:21:12Z</timestamp>
+      <contributor>
+        <username>Igor</username>
+        <id>1</id>
+      </contributor>
+      <comment>Новая страница: «==Назначение проекта== ::В сфере образования теоретические знания, которые студенты получ...»</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4029">==Назначение проекта==
+::В сфере образования теоретические знания, которые студенты получают на лекциях, закрепляются на практике благодаря выполнения лабораторных и парктических работ. Именно в процессе выполнения одной из таких лабораторных работ по дисциплине ''"Iternet-технологии"'' и был создан данный проект.&lt;br/&gt;
+::Основное назначение проекта — создание веб-приложения, запрашивающего у пользователя параметры для запросов и выводящее их результаты, использую при этом подготовленные выражения. В соответствии с вариантом, главным заданием этого проекта есть предоставление ''информации о сменах дежурств в поликлинике'', тоесть он предназначен для использования в медицинских учреждениях для регистрации и удобного отслеживания работы медсестер.&lt;br/&gt;
+==Используемые технологии==
+::Для реализации поставленных задач использовались такие технологии: ''PHP'', ''MySQl'', ''HTML''.&lt;br/&gt;
+::Используемые средства: &lt;br/&gt;
+:::#текстовый редактор — ''Visual Studio Code'';
+:::#браузер — ''Google Chrome'';
+:::#cборка веб-сервера — ''XAMPP'';
+===PHP===
+::'''PHP'''(Hypertext Preprocessor) — это распространенный язык программирования общего назначения с открытым исходным кодом. PHP специально сконструирован для веб-разработок и его код может внедряться непосредственно в HTML.
+===MySQl===
+::'''MySQL''' — свободная реляционная система управления базами данных. Сервер MySQL предназначен как для критических по задачам производственных систем с большой нагрузкой, так и для встраивания в программное обеспечение массового распространения.
+===HTML===
+::'''HTML''' —  стандартизированный язык разметки документов. Язык HTML интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.
+==Реализованный функционал==
+::Реализовано и протестировано несколько запросов на выборку, а именно:
+:::*предоставление переченя палат, в которых дежурит выбранная медсестра;
+:::*предоставление списка медсестер выбранного пользователем отделения;
+:::*предоставление информации о дежурствах (в любых палатах) в указанную смену.&lt;br/&gt;
+::Кроме того была реализована возможность добавления новых медсестер и палат в базу данных средствами веб-приложения, и возможность назначения выбранной медсестры в указанную палату.</text>
+      <sha1>14q7nxe7b513zk0ls1mk2wukyd5q3jv</sha1>
+    </revision>
+  </page>
+</mediawiki>
